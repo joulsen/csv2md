@@ -4,7 +4,7 @@ A CLI tool that converts a CSV file into a Markdown table. Made in Python 3 usin
 
 ## Example
 
-The csv-file *test.csv* has following content.
+If a csv-file *test.csv* has following content.
 
 ```
 test.csv
@@ -14,10 +14,10 @@ Apple,Round,Red
 Banana,Curved,Yellow
 ```
 
-By issuing the following command a markdown table will be created.
+By issuing the following command a markdown table will be created. Notice the flag *-H* that specifies that the first row is a header.
 
 ```
-python3 csv2md.py test.csv -o test.md
+python3 csv2md.py test.csv -o test.md -H
 ```
 
 ```markdown

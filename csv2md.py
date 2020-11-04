@@ -56,7 +56,7 @@ def make_table(csv, maxes = [], header=False):
     out = ""
     for i, row in enumerate(csv):
         out += line_string.format(*row)
-        if i == 0:
+        if i == 0 and header:
             out += header_seperator
     return out
 
