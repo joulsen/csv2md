@@ -28,3 +28,9 @@ test.md
 |Apple |Round |Red   |
 |Banana|Curved|Yellow|
 ```
+
+Which in markdown renders as:
+|Fruit |Shape |Color |
+|------|------|------|
+|Apple |Round |Red   |
+|Banana|Curved|Yellow|
